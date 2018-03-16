@@ -1,0 +1,39 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" },
+    "users": [
+        {
+          "id": 1,
+          "name": "bruno",
+          "email": "bruno@email.com",
+          "password": "bruno",
+          "roles": ["ADMIN"]
+        },
+        {
+          "id": 2,
+          "name": "techie",
+          "email": "techie@email.com",
+          "password": "techie",
+          "roles": ["FINANCIAL"]
+        },
+        {
+          "id": 3,
+          "name": "nilson",
+          "email": "nilson@email.com",
+          "password": "nilson",
+          "roles": ["SUPORT"]
+        },
+        {
+            "id": 4,
+            "name": "nilson",
+            "email": "john@mail.com",
+            "password": "john123",
+            "roles": ["BI"]
+          }
+      ]
+  }

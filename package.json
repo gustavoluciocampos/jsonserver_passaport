@@ -1,0 +1,23 @@
+{
+  "name": "front-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "Gustavo Campos",
+  "license": "MIT",
+  "scripts": {
+    "start": "`npm bin`/nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "json-server": "^0.12.1",
+    "jwt-simple": "^0.5.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.3.7"
+  }
+}
